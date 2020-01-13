@@ -1,5 +1,5 @@
-> *** 1.创建好模型后还需要安装应用,在setting中找到 INSTALLED_APPS列表，在里面添加你的应用名
-2.找到DATABASES将内容改为如下***
+> ** * 1.创建好模型后还需要安装应用,在setting中找到 INSTALLED_APPS列表，在里面添加你的应用名
+2.找到DATABASES将内容改为如下* **
 ``` python
 DATABASES = {
     'default': {
