@@ -1,4 +1,4 @@
-> ** * 在使用模型之前应该先创建一个项目接着创建一个应用 * **
+> ** 在使用模型之前应该先创建一个项目接着创建一个应用 **
 >windows下命令如下:
 PS C:\Users\Administrator\Desktop\Django项目> django-admin startproject protest
 PS C:\Users\Administrator\Desktop\Django项目> cd .\protest\
