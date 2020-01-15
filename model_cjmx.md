@@ -1,5 +1,5 @@
-> ** 1.创建好模型后还需要安装应用,在setting中找到 INSTALLED_APPS列表，在里面添加你的应用名
-2.找到DATABASES将内容改为如下**
+> ***1.创建好模型后还需要安装应用,在setting中找到 INSTALLED_APPS列表，在里面添加你的应用名
+2.找到DATABASES将内容改为如下***
 ``` python
 DATABASES = {
     'default': {
@@ -13,18 +13,18 @@ DATABASES = {
 }
 ```
 在mysql中创建一个数据库
-create database zxlts
-执行命令
-PS C:\Users\Administrator\Desktop\Django项目\protest> ** python manage.py makemigrations **
+**create database zxlts**  
+执行命令  
+PS C:\Users\Administrator\Desktop\Django项目\protest> **python manage.py makemigrations**  
 Migrations for 'apptest':
   apptest\migrations\0001_initial.py
     \- Create model person
 	
-PS C:\Users\Administrator\Desktop\Django项目\protest> ** python manage.py migrate **
+PS C:\Users\Administrator\Desktop\Django项目\protest> **python manage.py migrate**  
 Operations to perform:
-  Apply all migrations: admin, apptest, auth, contenttypes, sessions
-Running migrations:
-  Applying contenttypes.0001_initial... OK
+  Apply all migrations: admin, apptest, auth, contenttypes, sessions  
+  Running migrations:  
+  Applying contenttypes.0001_initial... OK  
   Applying auth.0001_initial... OK
   Applying admin.0001_initial... OK
   Applying admin.0002_logentry_remove_auto_add... OK
@@ -41,5 +41,5 @@ Running migrations:
   Applying auth.0009_alter_user_last_name_max_length... OK
   Applying auth.0010_alter_group_name_max_length... OK
   Applying auth.0011_update_proxy_permissions... OK
-  Applying sessions.0001_initial... OK
- ** 出现以上提示则没有问题 **
+  Applying sessions.0001_initial... OK  
+  **出现以上提示则没有问题**
